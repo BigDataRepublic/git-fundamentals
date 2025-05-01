@@ -16,6 +16,7 @@
     - [11. Update Your Feature Branch](#11-update-your-feature-branch)
   - [Contributing Your Changes](#contributing-your-changes)
     - [12. Create a Pull Request (PR)](#12-create-a-pull-request-pr)
+    - [13. Delete your branch locally and on remote](#13-delete-your-branch-locally-and-on-remote)
   - [Common Scenarios](#common-scenarios)
     - [Discard Local Changes](#discard-local-changes)
     - [Check Branch History](#check-branch-history)
@@ -134,6 +135,7 @@ Simply delete it with:
 ```bash
 git checkout main
 git branch -D my-feature-branch
+git push -d origin my-feature-branch
 ```
 
 ## Common Scenarios
