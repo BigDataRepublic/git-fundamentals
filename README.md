@@ -31,13 +31,13 @@ This guide will help you start collaborating on a shared Git repository, even if
 First, you need to make a local copy of the repository on your computer:
 
 ```bash
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/BigDataRepublic/git-fundamentals
 ```
 This creates a new folder with the repository name containing all project files.
 
 ### 2. Navigate to the Repository Folder
 ```bash
-cd repository-name
+cd git-fundamentals
 ```
 
 ## Making Changes
