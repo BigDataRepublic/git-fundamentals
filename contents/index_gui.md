@@ -1,4 +1,13 @@
 # Git Collaboration Exercise (GUI Version)
+- [Git Collaboration Exercise (GUI Version)](#git-collaboration-exercise-gui-version)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Exercise Tasks](#exercise-tasks)
+    - [Task 1: Create Your Personal File](#task-1-create-your-personal-file)
+    - [Task 2: Update the Index File](#task-2-update-the-index-file)
+    - [Task 3: Push Your Changes and Create a Pull Request](#task-3-push-your-changes-and-create-a-pull-request)
+    - [Task 4: Handle Merge Conflicts](#task-4-handle-merge-conflicts)
+  - [Expected Repository Structure](#expected-repository-structure)
 
 This exercise will help you practice Git collaboration skills using GitHub Desktop or VS Code's Git extension. You'll work with a shared repository and learn to contribute changes following best practices, including handling merge conflicts.
 
@@ -187,7 +196,7 @@ collaboration-exercise/
 
 Sample Contents of index.md
 
-```
+
 # Team Collaboration Project
 
 ## Project Description

@@ -1,4 +1,14 @@
 # Git Collaboration Exercise (bash version)
+- [Git Collaboration Exercise (bash version)](#git-collaboration-exercise-bash-version)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Exercise Tasks](#exercise-tasks)
+    - [Task 1: Create Your Personal File](#task-1-create-your-personal-file)
+    - [Task 2: Update the Index File](#task-2-update-the-index-file)
+    - [Task 3: Push Your Changes and Create a Pull Request](#task-3-push-your-changes-and-create-a-pull-request)
+    - [Task 4: Handle Merge Conflicts](#task-4-handle-merge-conflicts)
+  - [Expected Repository Structure](#expected-repository-structure)
+  - [Tips for Success](#tips-for-success)
 
 This exercise will help you practice Git collaboration skills, including handling merge conflicts. You'll work with a shared repository and learn to contribute changes following best practices.
 
@@ -105,7 +115,7 @@ Since multiple people will be editing the same file (`contents/index.md`), you'l
 
 2. Switch back to your feature branch:
    ```bash
-   git checkout username-feature
+   git checkout feataure/username
    ```
 
 3. Merge the latest changes from main into your branch:
@@ -138,7 +148,7 @@ Since multiple people will be editing the same file (`contents/index.md`), you'l
 
 9. Push the updated branch:
    ```bash
-   git push origin username-feature
+   git push origin feature/username
    ```
 
 Your pull request will automatically update with the resolved conflicts.
@@ -158,11 +168,9 @@ collaboration-exercise/
     │   └── about-me.md
     └── your-username/
         └── about-me.md
-```
 
-## Sample Contents of index.md
 
-```markdown
+
 # Team Collaboration Project
 
 ## Project Description

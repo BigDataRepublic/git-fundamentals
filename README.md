@@ -1,5 +1,28 @@
 # Git Collaboration Guide for Beginners
+- [Git Collaboration Guide for Beginners](#git-collaboration-guide-for-beginners)
+  - [Getting Started](#getting-started)
+    - [1. Clone the Repository](#1-clone-the-repository)
+    - [2. Navigate to the Repository Folder](#2-navigate-to-the-repository-folder)
+  - [Making Changes](#making-changes)
+    - [3. Create a New Branch](#3-create-a-new-branch)
+    - [4. Make Your Changes](#4-make-your-changes)
+    - [5. Check the Status of Your Changes](#5-check-the-status-of-your-changes)
+    - [6. Stage Your Changes](#6-stage-your-changes)
+    - [7. Commit Your Changes](#7-commit-your-changes)
+    - [8. Push Your Branch to the Remote Repository](#8-push-your-branch-to-the-remote-repository)
+  - [Staying Updated](#staying-updated)
+    - [9. Fetch Latest Changes](#9-fetch-latest-changes)
+    - [10. Update Your Main Branch](#10-update-your-main-branch)
+    - [11. Update Your Feature Branch](#11-update-your-feature-branch)
+  - [Contributing Your Changes](#contributing-your-changes)
+    - [12. Create a Pull Request (PR)](#12-create-a-pull-request-pr)
+  - [Common Scenarios](#common-scenarios)
+    - [Discard Local Changes](#discard-local-changes)
+    - [Check Branch History](#check-branch-history)
+    - [Switch Between Branches](#switch-between-branches)
+  - [Remember:](#remember)
 
+![excercise_flow](./visuals/way_of_working_flow.png)
 This guide will help you start collaborating on a shared Git repository, even if you've never used Git before.
 
 ## Getting Started
