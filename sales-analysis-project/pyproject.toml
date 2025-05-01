@@ -1,0 +1,26 @@
+[project]
+name = "sales-analysis-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["matplotlib>=3.10.1", "pandas>=2.2.3"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+    "pytest-cov>=6.1.1",
+    "ruff>=0.11.8",
+]
+
+
+[tool.ruff]
+line-length = 88
+lint.select = ["E", "F", "W"]
+lint.ignore = ["E501"]
+exclude = ["**/*.ipynb"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+minversion = "6.0"
+addopts = "-ra -q -vvv --cov-config=.coveragerc --cov=. --cov-report term-missing"

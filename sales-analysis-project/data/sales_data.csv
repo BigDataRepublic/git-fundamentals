@@ -1,0 +1,21 @@
+Date,Region,Customer,Category,Product,Amount
+2023-01-15,North,Customer A,Electronics,Laptop,1200.00
+2023-01-20,South,Customer B,Clothing,T-shirt,25.50
+2023-01-25,East,Customer C,Home,Chair,150.00
+2023-02-01,West,Customer D,Electronics,Phone,800.00
+2023-02-10,North,Customer E,Food,Groceries,120.75
+2023-02-15,South,Customer A,Electronics,Headphones,80.00
+2023-02-20,East,Customer B,Home,Table,300.00
+2023-03-01,West,Customer C,Clothing,Jeans,45.00
+2023-03-10,North,Customer D,Food,Snacks,15.25
+2023-03-15,South,Customer E,Electronics,Tablet,350.00
+2023-03-20,East,Customer A,Home,Lamp,75.00
+2023-04-01,West,Customer B,Clothing,Dress,60.00
+2023-04-10,North,Customer C,Electronics,TV,900.00
+2023-04-15,South,Customer D,Food,Dinner,95.50
+2023-04-20,East,Customer E,Home,Sofa,650.00
+2023-05-01,West,Customer A,Electronics,Camera,450.00
+2023-05-10,North,Customer B,Clothing,Shoes,85.00
+2023-05-15,South,Customer C,Food,Lunch,30.25
+2023-05-20,East,Customer D,Home,Bed,750.00
+2023-06-01,West,Customer E,Electronics,Watch,250.00
