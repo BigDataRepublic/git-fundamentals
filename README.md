@@ -128,6 +128,13 @@ If there are conflicts, Git will notify you and you'll need to resolve them.
 6. Submit the pull request
 
 Your team members will review your code, suggest changes if needed, and eventually merge it into the main branch.
+### 13. Delete your branch locally and on remote
+Once your changes are integrated in the remote, there is no need to keep your branch (locally and on remote).
+Simply delete it with:
+```bash
+git checkout main
+git branch -D my-feature-branch
+```
 
 ## Common Scenarios
 
