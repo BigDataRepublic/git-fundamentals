@@ -1,9 +1,10 @@
 from utils import data_utils
+
 # TODO: add your import statements here
 
 
 def main():
-    print("Hello from sales-analysis-project!")
+    print("Hello from main!")
 
     data = data_utils.load_dataset()
 
